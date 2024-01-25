@@ -10,11 +10,11 @@ if button1:
     st.session_state.button_clicked = True
     st.write("abcdef")
 
-# Button 2
-button2 = st.button("Button 2")
-if button2:
-    st.session_state.button_clicked = True
-    st.write("abcdefasfas")
+    # Button 2
+    button2 = st.button("Button 2")
+    if button2:
+        st.session_state.button_clicked = True
+        st.write("abcdefasfas")
 
 # Display the current state
 st.write(f"Button Clicked: {st.session_state.button_clicked}")
