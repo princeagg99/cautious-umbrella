@@ -6,8 +6,9 @@ if 'button_clicked' not in st.session_state:
 # Button 1
 button1 = st.button("Button 1")
 if button1:
-    st.write("abcdef")
+    
     st.session_state.button_clicked = True
+    st.write("abcdef")
 
 # Button 2
 button2 = st.button("Button 2")
