@@ -13,7 +13,7 @@ if button1:
     # Button 2
     button2 = st.button("Button 2")
     if button2:
-        st.session_state.button_clicked = True
+        st.session_state.button_clicked = False
         st.write("abcdefasfas")
 
 # Display the current state
